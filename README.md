@@ -1,6 +1,6 @@
 # engs-2020---undefined
 How is the program is going to be built and on which Language?
-the answer js easy and it is Pythoon.
+the answer is easy and it is Pythoon.
 What is my project?
 A program which can play pong for the player.
 When the project will end?
