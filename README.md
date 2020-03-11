@@ -1,11 +1,14 @@
 # engs-2020---undefined
-How is the program is going to be built and on which Language?
-the answer is easy and it is Pythoon.
-What is my project?
-A program which can play pong for the player.
-When the project will end?
-the project will end at the end of the semester (aka end of the may 2020).
-Who is the user of the project?
-Lazy people who hate to play pong but play it because it was a gift.
-Why would it be used?
-Becasue lazy gamers would like to see a program suffer at a game which they suffers at.
+1)How is the program is going to be built and on which Language?
+The answer is easy and it is Pythoon.
+2)What is my project?
+A univercity calendar system
+3)When the project will end?
+The project will end at the end of the semester (aka end of the may 2020).
+4)Who is the user of the project?
+For teahers and students to order their events,exames,quiz,workshops and maybe office hour dates and time.
+5)Why would it be used?
+5.1) Becasue we all had enough of teashers randomly choosing how scedualing for us and teachers had enough of us complaining about their incompetance to manage every event.
+5.2.1) this feature allows students thanks to poll partrly baild the date of the time of the exame if high enouf number is reached.
+5.2.2) this feature allows for teachers to find free slots in week for the events.
+5.2.2) thus feature is date suggestion system which finds suggests alternatives if the date is already taken.
