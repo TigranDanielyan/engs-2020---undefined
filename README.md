@@ -13,6 +13,9 @@ For teahers and students to order their events,exames,quiz,workshops and maybe o
 
 5)Why would it be used?
 5.1) Becasue we all had enough of teashers randomly choosing how scedualing for us and teachers had enough of us complaining about their incompetance to manage every event.
-5.2.1) this feature allows students thanks to poll partrly baild the date of the time of the exame if high enough number is reached.
-5.2.2) this feature allows for teachers to find free slots in week for the events.
-5.2.2) thus feature is date suggestion system which finds suggests alternatives if the date is already taken.
+
+5.2.1) this feature allows for teachers to find free slots in week for the events.
+
+5.2.2) this feature is date suggestion system which finds suggests alternatives if the date is already taken.
+
+5.2.3) this feature allows students thanks to poll partrly baild the date of the time of the exame if high enough number is reached.(not added)
