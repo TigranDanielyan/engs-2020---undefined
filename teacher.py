@@ -5,17 +5,34 @@ def main():
     if type == "yes":
         type = input(" do you want to find a slot or you have a date")
         if type == "find":
-            print("found")
+            print("empty days are")
             with open('jason.json') as file_data:
                 data = json.load(file_data)
                 for month in data ["month"]:
-                    if (month["filled"]) == "yes":
+                    if (month["filled"]) == "No":
                         print (month["day"])
-
         else:
             if type == "date":
-                type == input ("please enter the day of the exam from 1-31")
-
+                with open('jason.json') as file_data:
+                    data = json.load(file_data)
+                    for month in data["month"]:
+                        type = input ("please enter the day of the exam from 1-31")
+                        if type == (month["day"]):
+                            if (month["filled"]) == "Yes":
+                                print ("sorry it is taken")
+                                with open('jason.json') as file_data:
+                                    data = json.load(file_data)
+                                    for month in data["month"]:
+                                        if (month["filled"]) == "No":
+                                            print(month["day"])
+                            if (month["filled"]) == "No":
+                                month["filled"] = "Yes"
+                                print(month["day"])
+                                print("registered for you")
+                                file = open("gc_grades.json", "w")
+                                file.write(json.dumps(month["filled"]))
+                                file.close()
+                                break
     else:
         if type == "no":
             print("no")
