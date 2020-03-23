@@ -19,7 +19,7 @@ def main():
                         type = input ("please enter the day of the exam from 1-31 ")
                         if type == (month["day"]):
                             if (month["filled"]) == "Yes":
-                                print ("sorry it is taken")
+                                print ("sorry it is taken, take another")
                                 with open('jason.json') as file_data:
                                     data = json.load(file_data)
                                     for month in data["month"]:
