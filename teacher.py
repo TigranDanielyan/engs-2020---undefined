@@ -29,7 +29,10 @@ def main():
                             else:
                                 if (month["filled"]) == "No":
                                     json_data["month"]["filled"] = "Yes"
-                                    #Not working "writes not defined"
+                                    file = open("jason.json", "w")
+                                    file.write(json.dumps())
+                                    file.close()
+                                    #Not working "writes not defined every time line 31""
                                     print(month["day"])
                                     print("registered for you")
                                     break
