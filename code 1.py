@@ -11,4 +11,3 @@ if type == "student":
 
     print ("starting student operations")
     student.main()
-

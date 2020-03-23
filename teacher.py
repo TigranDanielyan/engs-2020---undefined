@@ -25,13 +25,13 @@ def main():
                                     for month in data["month"]:
                                         if (month["filled"]) == "No":
                                             print(month["day"])
-                            if (month["filled"]) == "No":
-                                json.data [month["filled"]] = "Yes"
+                                            break
+                            else:
+                                if (month["filled"]) == "No":
+                                month["filled"] = "Yes"
+                                #Issue - how to save to the file
                                 print(month["day"])
                                 print("registered for you")
-                                data = open("jason.json", "w")
-                                data.write(json.dumps(month["filled"]))
-                                data.close()
                                 break
     else:
         if type == "no":

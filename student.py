@@ -1,5 +1,5 @@
-import openpyxl
-import xlrd
+#import openpyxl
+#import xlrd
 
 def main():
  type = input("do what to start new exam (yes or no) ")
