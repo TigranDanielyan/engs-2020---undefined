@@ -26,7 +26,7 @@ def main():
                                         if (month["filled"]) == "No":
                                             print(month["day"])
                             if (month["filled"]) == "No":
-                                month["filled"] = "Yes"
+                                json.data [month["filled"]] = "Yes"
                                 print(month["day"])
                                 print("registered for you")
                                 data = open("jason.json", "w")
