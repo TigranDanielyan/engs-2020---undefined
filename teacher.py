@@ -28,11 +28,11 @@ def main():
                                             break
                             else:
                                 if (month["filled"]) == "No":
-                                month["filled"] = "Yes"
-                                #Issue - how to save to the file
-                                print(month["day"])
-                                print("registered for you")
-                                break
+                                    json_data["month"]["filled"] = "Yes"
+                                    #Issue - how to save to the file
+                                    print(month["day"])
+                                    print("registered for you")
+                                    break
     else:
         if type == "no":
             print("no")
