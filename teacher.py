@@ -15,27 +15,26 @@ def main():
             if type == "date":
                 with open('jason.json') as file_data:
                     data = json.load(file_data)
+                    type = input ("please enter the day of the exam from 1-31 ")
                     for month in data["month"]:
-                        type = input ("please enter the day of the exam from 1-31 ")
                         if type == (month["day"]):
                             if (month["filled"]) == "Yes":
-                                print ("sorry it is taken, take another")
+                                print("sorry it is taken, take another")
                                 with open('jason.json') as file_data:
                                     data = json.load(file_data)
                                     for month in data["month"]:
                                         if (month["filled"]) == "No":
                                             print(month["day"])
-                                            break
+
                             else:
                                 if (month["filled"]) == "No":
-                                    json_data["month"]["filled"] = "Yes"
-                                    file = open("jason.json", "w")
-                                    file.write(json.dumps())
-                                    file.close()
-                                    #Not working "writes not defined every time line 31""
-                                    print(month["day"])
-                                    print("registered for you")
+                                    print(month["day"], "is free, you took it")
+                                    month["filled"] = "Yes"
                                     break
+
+                    file = open("jason.json", "w")
+                    file.write(json.dumps(data, indent=2))
+                    file.close()
     else:
         if type == "no":
             print("no")
