@@ -1,4 +1,4 @@
-# engs-2020---calendur suggestion-system
+# engs-2020---Calendar-Suggestion-System
 1)How is the program is going to be built and on which Language?
 The answer is easy and it is Pythoon.
 
@@ -18,8 +18,9 @@ For teahers and students to order their events,exames,quiz,workshops and maybe o
 
 5.2.2) this feature is date suggestion system which suggests alternatives 1 day befor and after if the date is already taken. if not it takes the date.
 
-5.2.3) this feature allows students thanks to apeal to change the date of the exame if high enough number is reached.(working progress)
+5.2.3) this feature allows students to apeal (take down) the date of the exame if high enough number is reached.
 
 5.2.4) student pasword system is a feature which allows to student login into program and also not allows them to spam apeals for the same date to get exame apealed.(working progress)
 
-5.2.5) this system allows when an exam date got apealed both notify students and teachers when program starts.
+5.2.5) this system allows when an exam date got apealed both notify students and teachers when program starts.(working progress)
+
