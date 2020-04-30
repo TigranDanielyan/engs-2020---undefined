@@ -1,1 +1,0 @@
-if type -2 <= month[day] <= type +2
