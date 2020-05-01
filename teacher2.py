@@ -5,11 +5,10 @@ def main():
         data = json.load(file_data)
         newApeals = False
         for month in data["month"]:
-            if (month["apeal"]) == "20":
+            if str(month["apeal"]) == "20":
                 month["filled"] = "No"
-                month["apeal"] = "0"
-                print(" we want to inform that exam dates have been taken down from teacher side")
-                print (month["day"])
+                month["apeal"] = 0
+                print(" we want to inform that exam dates",month["day"]," have been taken down from teacher side")
                 newApeals = True
 
 

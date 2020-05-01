@@ -3,6 +3,7 @@ import teacher
 import student2
 import teacher2
 
+
 student2.main()
 teacher2.main()
 type = input("are you a teacher or student ")
